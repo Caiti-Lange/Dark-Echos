@@ -1,0 +1,43 @@
+body {
+  background-color: #0d0c0cf0;
+  color: green;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  gap: 1ch;
+  margin-top: 24px;
+}
+
+.episodes ul {
+  display: grid;
+  gap: 1ch;
+
+  list-style-type: none;
+  padding: 0.25rem;
+}
+
+.episodes li {
+  padding: 1ch;
+  border: 1px solid #ccc;
+}
+
+.episodes li:hover {
+  cursor: pointer;
+  font-style: italic;
+}
+
+.details {
+  padding: 0.25rem;
+}
