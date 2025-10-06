@@ -8,7 +8,7 @@ export default function App() {
 
   /** Detailed information about the selected episode */
   function EpisodeDetails() {
-    if (!selectedEpoisode) {
+    if (!selectedEpisode) {
       return (
         <section className="details">
           <h2>Episode Details</h2>
@@ -25,14 +25,14 @@ export default function App() {
         </p>
         <p>
           The description of the episode{selectedEpisode.title} is:{" "}
-          {selectedepisode.description}
+          {selectedEpisode.description}
         </p>
       </section>
     );
   }
 
   /** List of episodes that a user can select from */
-  function Roster() {
+  function Episodes() {
     return (
       <section className="episodes">
         <h2>Episodes</h2>
